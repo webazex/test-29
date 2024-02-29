@@ -14,3 +14,19 @@
  *
  * Version:     1.0
  */
+*{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal; /* 100 - 900 */
+    font-style: normal;
+}
+.site-size {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
